@@ -46,7 +46,7 @@ You may refer to some searching algorithms to reach the goal to design the polic
 
 ### Release
 
-You can find a windows release on the [Releases page](./releases). Simply download the `.exe` file and run it.
+You can find a windows release on the [Releases page](https://github.com/jaideepheer/AI2-Assignment_2-ReactElectron_QLearning_Agent/releases/latest). Simply download the `.exe` file and run it.
 
 ### Development
 
