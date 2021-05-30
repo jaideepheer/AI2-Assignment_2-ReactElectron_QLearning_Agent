@@ -69,13 +69,17 @@ const createWindow = async () => {
 
   mainWindow = new BrowserWindow({
     show: false,
-    width: 1024,
-    height: 728,
+    width: 790,
+    height: 780,
     icon: getAssetPath('icon.png'),
     webPreferences: {
       nodeIntegration: true,
+      contextIsolation: false,
     },
   });
+
+  // Aspect ratio works on Windows, Linux, and Mac:
+  mainWindow.setAspectRatio(79 / 78);
 
   mainWindow.loadURL(`file://${__dirname}/index.html`);
 
