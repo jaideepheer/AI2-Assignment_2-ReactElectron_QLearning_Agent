@@ -1,5 +1,7 @@
 # AI2 - Assignment 2
 
+> See [Report.pdf](./Report.pdf)
+
 ## Question
 
 Make an 8x8 grid agent world as shown below.
